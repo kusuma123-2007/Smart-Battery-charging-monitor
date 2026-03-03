@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+
+.battery-box {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #222;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Battery History Box */
+
+.history-box {
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #222;
+
+    width: 450px;          /* Medium size */
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0 0 12px rgba(0,255,200,0.3);
+}
+
+/* Heading */
+.history-box h3 {
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+.history-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+.history-box th,
+.history-box td {
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+}
